@@ -19,7 +19,7 @@ public abstract class Taco {
             System.out.println("Select your shell");
             System.out.println("1) Hard Shell");
             System.out.println("2) Soft Shell");
-            String shell = input.nextLine().equals("1") ? "Hard Shell" : "Soft Shell"
+            String shell = input.nextLine().equals("1") ? "Hard Shell" : "Soft Shell";
 
 
  //         Taco Size
@@ -28,12 +28,12 @@ public abstract class Taco {
             System.out.println("2) Medium");
             System.out.println("3 Large");
             String sizeChoice = input.nextLine();
-            String size = switch (sizeChoice) {
-                case "1" -> "Small"
-                case "2" -> "Medium"
-                case "3" -> "Large"
-                case
-            }
+//            String size = switch (sizeChoice) {
+//                case "1" -> "Small"
+//                case "2" -> "Medium"
+//                case "3" -> "Large"
+//                case
+//            }
 
 
 
